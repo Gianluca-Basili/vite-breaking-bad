@@ -7,8 +7,8 @@ export default {
 </script>
 <template lang="">
     <div class="text-center">
-        <div class="electric my-2">
-            <img :src="myCharacter.imageUrl" clss="img-fluid mb-3 " :alt="myCharacter.info" height="200" width="200"/>
+        <div class="electric my-4">
+            <img :src="myCharacter.imageUrl" class=" my-3" :alt="myCharacter.info" height="200" width="200"/>
             <div class="code">
                 {{myCharacter.code}}
             </div>
@@ -22,6 +22,15 @@ export default {
         border-radius: 50%;
         
     }
+
+    .electric{
+        background-color:rgb(241, 254, 96);
+        border-radius: 10px;
+        width: 90%;
+        margin: 0 auto;
+       
+    }
+
 </style>
 
 
