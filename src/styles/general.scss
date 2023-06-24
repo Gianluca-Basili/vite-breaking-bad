@@ -1,1 +1,18 @@
-@import '/node_modules/bootstrap/scss/bootstrap.scss';
+@import '/node_modules/bootstrap/scss/bootstrap';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.character-container{
+    width: 1200px;
+    margin: 0 auto;
+    background-color:lightgrey;
+}
+
+.electric{
+    background-color:rgb(241, 254, 96);
+    border-radius: 10px;
+}
