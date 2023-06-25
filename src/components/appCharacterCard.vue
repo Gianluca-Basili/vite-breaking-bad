@@ -4,10 +4,12 @@ export default {
         myCharacter: Object
     }
 }
+
 </script>
 <template lang="">
     <div class="text-center">
         <div class="electric my-4">
+            
             <img :src="myCharacter.imageUrl" class=" my-3" :alt="myCharacter.info" height="200" width="200"/>
             <div class="code">
                 {{myCharacter.code}}
